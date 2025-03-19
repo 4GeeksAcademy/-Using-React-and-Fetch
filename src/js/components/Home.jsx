@@ -1,5 +1,5 @@
 import React from "react";
-
+import Todolist from "./todolist";
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
 
@@ -11,7 +11,7 @@ const Home = () => {
 
 			<h1 className="text-center mt-5">Hello Rigo!</h1>
 			<p>
-				<img src={rigoImage} />
+			<Todolist />
 			</p>
 			<a href="#" className="btn btn-success">
 				If you see this green button... bootstrap is working...
